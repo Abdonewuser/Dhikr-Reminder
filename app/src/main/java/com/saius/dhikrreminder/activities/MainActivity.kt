@@ -84,6 +84,10 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, ReminderOptionsActivity::class.java)
             startActivityForResult(intent, 100)
         }
+        // Set click listener on help button
+        binding.imgBtnHelp.setOnClickListener{
+            val intent = Intent(this, )
+        }
 
         updateTxtMinAndTxtAdhkar()
 
